@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+.container {
+    position: relative;
+    border: 2px dashed black;
+    width: 680px;
+    display: flex;
+    margin: 50px auto;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 0 6px rgba(0, 0, 0, 0.211)
+}
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+.txt{
+    margin-left: 16px;
+}
+.txt p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.txt h1 {
+    margin-bottom: 10px;
+}
+.stamp {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 110px;
+}
